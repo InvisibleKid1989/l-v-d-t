@@ -7,11 +7,11 @@
       <target file="stm32f10x_pwr.o" lastModified="14fe9b0fe20">
          <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="14fe9985c07"/>
       </target>
-      <target file="stm32f10x_exti.o" lastModified="14fe9b0ff55">
-         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="14fe99810e6"/>
-      </target>
       <target file="stm32f10x_tim.o" lastModified="14fe9b0fd8a">
          <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="14fe996bf32"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="14fe9b0ff55">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="14fe99810e6"/>
       </target>
       <target file="startup_stm32f10x_ld_vl.o" lastModified="14fe9b0fdb2">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_ld_vl.c" lastModified="14fe9967be3"/>
@@ -25,20 +25,20 @@
       <target file="stm32f10x_dac.o" lastModified="14fe9b0feaa">
          <source file="..\..\..\stm_lib\src\stm32f10x_dac.c" lastModified="14fe996a75d"/>
       </target>
-      <target file="stm32f10x_spi.o" lastModified="14fe9b100ec">
-         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14fe997b876"/>
-      </target>
       <target file="stm32f10x_flash.o" lastModified="14fe9b1005e">
          <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="14fe996f186"/>
       </target>
-      <target file="main.o" lastModified="14fe9b0fecd">
-         <source file="..\..\..\main.c" lastModified="14fe9a9fcea"/>
+      <target file="stm32f10x_spi.o" lastModified="14fe9b100ec">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14fe997b876"/>
       </target>
-      <target file="stm32f10x_usart.o" lastModified="14fe9b10003">
-         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14fe998807b"/>
+      <target file="main.o" lastModified="14fe9b187b3">
+         <source file="..\..\..\main.c" lastModified="14fe9b185ec"/>
       </target>
       <target file="stm32f10x_gpio.o" lastModified="14fe9b0fe67">
          <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14fe9969044"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="14fe9b10003">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14fe998807b"/>
       </target>
       <target file="stm32f10x_rcc.o" lastModified="14fe9b0ff1a">
          <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14fe9967bd9"/>
