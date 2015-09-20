@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F100C4 -DSTM32F10X_LD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\OneDrive\Документы\lvdt v2\l-v-d-t -ID:\OneDrive\Документы\lvdt v2\l-v-d-t\Firmware -ID:\OneDrive\Документы\lvdt v2\l-v-d-t\Firmware\stm_lib\inc -ID:\OneDrive\Документы\lvdt v2\l-v-d-t\Firmware\cmsis_boot -ID:\OneDrive\Документы\lvdt v2\l-v-d-t\Firmware\stm_lib -ID:\OneDrive\Документы\lvdt v2\l-v-d-t\Firmware\cmsis">
+      <target file="stm32f10x_adc.o" lastModified="14fe9b0ffb0">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="14fe996b29b"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="14fe9b0fe20">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="14fe9985c07"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="14fe9b0ff55">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="14fe99810e6"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="14fe9b0fd8a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="14fe996bf32"/>
+      </target>
+      <target file="startup_stm32f10x_ld_vl.o" lastModified="14fe9b0fdb2">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_ld_vl.c" lastModified="14fe9967be3"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="14fe9b10143">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="14fe997bd3c"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14fe9b0fde8">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14fe9967bf3"/>
+      </target>
+      <target file="stm32f10x_dac.o" lastModified="14fe9b0feaa">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dac.c" lastModified="14fe996a75d"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="14fe9b100ec">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="14fe997b876"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="14fe9b1005e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="14fe996f186"/>
+      </target>
+      <target file="main.o" lastModified="14fe9b0fecd">
+         <source file="..\..\..\main.c" lastModified="14fe9a9fcea"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="14fe9b10003">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14fe998807b"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14fe9b0fe67">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14fe9969044"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="14fe9b0ff1a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14fe9967bd9"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="14fe9b1009f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="14fe9980182"/>
+      </target>
+   </processor>
+</history>
